@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    
+}
+section{
+    display: flex;
+    justify-content: flex-end;
+    background-color:hotpink;
+    flex-wrap: wrap;
+   
+}
+
+@media screen and (max-width:600px){ 
+    .square1{
+        display:none;
+    }
+}
+
+div{
+    height:100px;
+    display:inline-block;
+    width: 100px;
+    margin: 20px;
+    padding: 0;
+}
+.square1{
+    background-color: orange;
+    position:absolute;
+    top: 0px;
+    right: 420px;
+    
+    
+}
+.square2{
+    background-color: blue;
+    
+
+}
+.square3{
+    background-color: green;
+    
+}
+.square4{
+    background-color: aqua;
+   
+}
